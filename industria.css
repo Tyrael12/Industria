@@ -1,0 +1,33 @@
+#nombre {background-image: url("playa-en-verano-5002.jpg");
+	width: 500px;
+	height: 300px;
+	margin: 40px;
+	font-size: 40px;
+	transform: translateX(75%);
+}
+body img {
+	transition:width 2s, height 2s, background-color 2s, transform 2s;
+width: 440px;
+height: 250px;
+}
+body img:hover {
+height: 350px;
+	width: 540px;
+
+	
+
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatright{
+	float: right;
+}
+
+h1 {
+font-family: Papyrus;
+text-align: center;
+
+}
