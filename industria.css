@@ -74,10 +74,38 @@ section {
 	margin-top: 30px;
 }
 
+.boton1 {
+    box-shadow: 3px 3px 3px 3px;
+    margin: 20px;
+    float: left;
+    background-color: white;
+    color: grey solid;
+    width: 72px;
+    height:20px;
+}
+.boton2 {
+    box-shadow: 3px 3px 3px 3px;
+    margin: 20px;
+    float: left;
+    background-color: white;
+    color: grey solid;
+    width: 72px;
+    height:20px;
+}
+.boton3 {
+    box-shadow: 3px 3px 3px 3px;
+    margin: 20px;
+    float: left;
+    background-color:  white;
+    color: grey solid;
+    width: 72px;
+    height:20px;
+}
+
 footer.general {
 	width: 100%;
 	height: 250px;
-	background-color: #0b1822;
+	background-color: #ffffff;
 }
 
 footer ul {
@@ -85,10 +113,10 @@ footer ul {
 	float: left;
 	text-align: center;
 	font-size: 25px;
-	color: #ffffff;
+	color: #483d8b;
 	margin-left: 140px;
 }
 
 em {
-	color: #c0c0c0;
+	color: #808080;
 }
