@@ -77,40 +77,44 @@ section {
 
 .boton1 {
 	border: 1px solid #C2C2C2;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 5px 5px 5px 5px;
 	overflow: hidden;
 	box-shadow: 3px 3px 3px 3px #C2C2C2;
-	margin: 20px;
+	margin: 20px 40px 40px 90px;
 	float: left;
 	background-color: white;
-	width: 72px;
+	width: 80px;
 	height:20px;
 	text-align: center;
 }
-.boton2 {
-	border: 1px solid #C2C2C2;
-    border-radius: 20px 20px 20px 20px;
-	overflow: hidden;
+
+#caja {
 	box-shadow: 3px 3px 3px 3px #C2C2C2;
-	margin: 20px;
-	float: left;
 	background-color: white;
-	width: 72px;
-	height:20px;
-	text-align: center;
+	float: left;
+	width: 266px;
+	height: 330px;
+	margin: 30px 0px 0px 67px;
 }
-.boton3 {
-	border: 1px solid #C2C2C2;
-    border-radius: 20px 20px 20px 20px;
-	overflow: hidden;
+#caja1 {
 	box-shadow: 3px 3px 3px 3px #C2C2C2;
-	margin: 20px;
-	float: left;
 	background-color: white;
-	width: 72px;
-	height:20px;
-	text-align: center;
+	float: left;
+	width: 266px;
+	height: 330px;
+	margin: 30px 0px 0px 30px;
 }
+.imagen {
+	width: 266px;
+	height: 200px;
+
+}
+.imagen {
+	width: 266px;
+	height: 200px;
+
+}
+
 
 footer.general {
 	margin-left: 0px;
@@ -156,4 +160,7 @@ aside {
 	height: 100%;
 	margin:0 auto;
 
+}
+.descripcion {
+	margin: 10px;
 }
