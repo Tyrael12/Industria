@@ -76,31 +76,40 @@ section {
 }
 
 .boton1 {
-    box-shadow: 3px 3px 3px 3px;
-    margin: 20px;
-    float: left;
-    background-color: white;
-    color: grey solid;
-    width: 72px;
-    height:20px;
+	border: 1px solid #C2C2C2;
+    border-radius: 20px 20px 20px 20px;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px 3px #C2C2C2;
+	margin: 20px;
+	float: left;
+	background-color: white;
+	width: 72px;
+	height:20px;
+	text-align: center;
 }
 .boton2 {
-    box-shadow: 3px 3px 3px 3px;
-    margin: 20px;
-    float: left;
-    background-color: white;
-    color: grey solid;
-    width: 72px;
-    height:20px;
+	border: 1px solid #C2C2C2;
+    border-radius: 20px 20px 20px 20px;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px 3px #C2C2C2;
+	margin: 20px;
+	float: left;
+	background-color: white;
+	width: 72px;
+	height:20px;
+	text-align: center;
 }
 .boton3 {
-    box-shadow: 3px 3px 3px 3px;
-    margin: 20px;
-    float: left;
-    background-color:  white;
-    color: grey solid;
-    width: 72px;
-    height:20px;
+	border: 1px solid #C2C2C2;
+    border-radius: 20px 20px 20px 20px;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px 3px #C2C2C2;
+	margin: 20px;
+	float: left;
+	background-color: white;
+	width: 72px;
+	height:20px;
+	text-align: center;
 }
 
 footer.general {
