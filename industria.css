@@ -156,6 +156,12 @@ em {
 	text-shadow: 2px 2px 2px #ffffff;
 }
 
+ul#links li>a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
 aside {
 	width: 300px;
 	height: 660px;
