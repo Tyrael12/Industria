@@ -1,3 +1,14 @@
+.navbar-header{
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.nav>li{
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+
 .mavial{
 	font-family: Papyrus, fantasy;
 	font-size: 50px;
@@ -6,6 +17,7 @@
 	position: center;
 	margin:0 auto;
 	margin-bottom: 30px;
+	margin-top: 100px;
 	position:relative;
 }
 .estrellas{
@@ -147,6 +159,12 @@ em {
 	color: #191970;
 	text-shadow: 2px 2px 2px #ffffff;
 }
+
+ul#links li>a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
 
 aside {
 	width: 300px;
