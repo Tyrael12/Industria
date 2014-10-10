@@ -84,7 +84,7 @@ section {
 
 .floatright {
 	float: right;
-	margin-top: 30px;
+	margin-top: -10px;
 }
 
 .boton1 {
@@ -128,51 +128,62 @@ section {
 }
 
 
-footer.general {
-	margin-left: 0px;
-	width: 100%;
-	height: 250px;
-	margin-top: 300px;
-	background: linear-gradient(to bottom, rgba(149,149,149,1) 0%,
-		rgba(1,1,1,1) 19%,
-		rgba(10,10,10,1) 77%,
-		rgba(10,10,10,1) 79%,
-		rgba(78,78,78,1) 88%,
-		rgba(56,56,56,1) 96%,
-		rgba(78,78,78,1) 98%,
-		rgba(78,78,78,1) 100%,
-		rgba(27,27,27,1) 100%,
-		rgba(78,78,78,1) 100%); /* W3C */
-}
 
-footer ul {
-
-	list-style: none;
-	float: left;
-	text-align: center;
-	font-size: 25px;
-	color: #ffffff;
-	margin-left:13%;
-}
-
-em {
-	color: #191970;
-	text-shadow: 2px 2px 2px #ffffff;
-}
-
-ul#links li>a{
-	text-decoration: none;
-	color: #ffffff;
-}
-
-
+/*-----------------aqui empieza aside-------------------------*/
 aside {
 	width: 300px;
 	height: 660px;
-	background-color: grey;
 	float: right;
 	margin:30px 5% 10px 20px;
 }
+article.contactus{
+
+	width: 100%;
+	height: 300px;
+	position:relative;
+}
+div.asideicons{
+	position:absolute;
+	bottom:10px;
+	margin-left: 50px;
+
+}
+div.asideicons li{
+	display:inline-block;
+	width: 50px;
+	height: 40px;
+}
+#imagenfacebook {
+  background: url("socialmedia/facebook2.jpg") no-repeat;
+  height: 35px;
+  width: 35px;
+}
+#imagenfacebook:hover {
+  background: url("socialmedia/facebookactive.jpg") no-repeat;
+  height: 35px;
+  width: 35px;
+}
+#imagentwitter {
+  background: url("socialmedia/twitter.png") no-repeat;
+  height: 45px;
+  width: 45px;
+}
+#imagentwitter:hover {
+  background: url("socialmedia/twitteractive.png") no-repeat;
+  height: 45px;
+  width: 45px;
+}
+#imageninstagram {
+  background: url("socialmedia/instagram.jpg") no-repeat;
+  height: 35px;
+  width: 35px;
+}
+#imageninstagram:hover {
+  background: url("socialmedia/instagramactive.jpg") no-repeat;
+  height: 35px;
+  width: 35px;
+}
+/*-------------------aqui acaba aside---------------------------*/
 .footergeneral{
 	width: 1300px;
 	height: 100%;
@@ -181,4 +192,44 @@ aside {
 }
 .descripcion {
 	margin: 10px;
+}
+
+footer.general {
+    padding-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+    height: 350px;
+    margin-top: 300px;
+    background-image: url(footer/elegant.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer ul {
+
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff ;
+    margin-left:13%;
+    text-shadow: 1px -2px 3px black;
+}
+
+em {
+    color:rgba(41, 185, 141, 0.8);
+    text-shadow: 1px -3px 2px black;
+
+}
+
+ul#links li>a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footergeneral{
+    width: 1300px;
+    height: 100%;
+    margin:0 auto;
+
 }
