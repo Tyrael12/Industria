@@ -145,7 +145,7 @@ article.contactus{
 	text-align: center;
 	font-family: "Andale Mono";
 	font-size: 40px;
-	color: #008080;
+	color: #778899;
 	margin-left: 30px;
 }
 
@@ -155,12 +155,19 @@ div.asideicons{
 }
 
 div.asideicons li{
-	display:inline-block;
-	width: 50px;
+	display: inline-block;
+	width: 60px;
 	height: 40px;
+	margin: center;
 	margin-top: 50px;
-	
+	font-size: 20px;
 }
+
+p.email{
+	font-size: 15px;
+
+}
+
 #imagenfacebook {
   background: url("socialmedia/facebook2.jpg") no-repeat;
   height: 35px;
