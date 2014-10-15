@@ -54,7 +54,6 @@ ul#inline-block li>a:hover {
 }
 
 body {
-	
 	height: 900px;
 	
 }
@@ -80,6 +79,7 @@ section.principal{
 section {
 	width: 100%;
 	height: 400px;
+
 }
 
 .floatright {
