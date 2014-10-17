@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   		<link rel="stylesheet" type="text/css" href="calendario.css"/>
+		<script defer type="text/javascript" src="calendario.js"></script>
 	</head>
 
 	<body>
@@ -82,10 +84,62 @@
             <a href="enconstruccion.html" style="text-decoration:none" class="boton1">Barcelona</a></div>
 
             <a href="hotelibiza1.jpg" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600,top=50px,left=200px'); return false;"><div id="caja1"><img class="imagen" src="hotelibiza.jpg" ></a></img><p class="descripcion">Mavial le ofrece la tranquilidad que usted desea disfrutar en sus vacaciones.</p><a href="enconstruccion.html" style="text-decoration:none" class="boton1">Ibiza</a></div>
-            
-         	
-		</section>
 
+		</section>
+		<article id="checksplace">
+			<div class="checktime">
+			        <div id="checkin"></div>
+			        <div id="checkout"></div>
+    		</div>
+			   	<table class="calendar">
+			     <tr>
+			       <td class="select"></td>
+			       <td class="select"></td>
+			       <td class="select">1</td>
+			       <td class="select">2</td>
+			       <td class="select">3</td>
+			       <td class="select">4</td>
+			       <td class="select">5</td>
+			       </tr>
+			     <tr>
+			       <td class="select">6</td>
+			       <td class="select">7</td>
+			       <td class="select">8</td>
+			       <td class="select">9</td>
+			       <td class="select">10</td>
+			       <td class="select">11</td>
+			       <td class="select">12</td>
+			     </tr>
+			     <tr>
+			       <td class="select">13</td>
+			       <td class="select">14</td>
+			       <td class="select">16</td>
+			       <td class="select">17</td>
+			       <td class="select">18</td>
+			       <td class="select">19</td>
+			       <td class="select">20</td>
+			     </tr>
+			     <tr>
+			       <td class="select">21</td>
+			       <td class="select">22</td>
+			       <td class="select">23</td>
+			       <td class="select">24</td>
+			       <td class="select">25</td>
+			       <td class="select">26</td>
+			       <td class="select">27</td>
+			     </tr>
+			     <tr>
+			       <td class="select">28</td>
+			       <td class="select">29</td>
+			       <td class="select">30</td>
+			       <td class="select">31</td>
+			       <td class="select"></td>
+			       <td class="select"></td>
+			       <td class="select"></td>
+
+			     </tr>
+			   	</table>
+		</article>
 
 			<div class="floatright"><img src="mapa.png"></img></div>
 <footer class="general">
@@ -93,7 +147,7 @@
 
 			<ul id="links">
 				<li><em>NAVIGATION</em></li><br>
-				<li><a href="enconstruccion.html">Restaurant</a></li>
+				<li><a target="_blank" href="enconstruccion.html">Restaurant</a></li>
 				<li><a href="enconstruccion.html">Rooms</a></li>
 				<li><a href="enconstruccion.html">Spa</a></li>
 				<li><a href="enconstruccion.html">Excursions</a></li>
